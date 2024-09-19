@@ -6,7 +6,7 @@ Green: #00B172
 White: #FFF
 
 */
-*{
+body{
     margin: 0;
     padding: 0;
     font-size: 10px;
@@ -16,13 +16,13 @@ White: #FFF
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 10%;
+    height: 14%;
     width: 100%;
     background: #FFF;
     /* border: 1px solid black; */
 }
 .navbar img{
-    padding-left: 3%;
+    padding: 1% 0 1% 3%;
     width: 18%;
     /* border: 1px solid red; */
 }
@@ -45,4 +45,28 @@ a{
     text-decoration: none;
     font-size: 2.5em;
     color: #1A1A1A;
+}
+
+#first-section{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 150vh;
+    background-image: url(/images/landing.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#first-section h1, #first-section p {
+    color: white;
+    text-align: center;
+}
+#first-section h1 {
+    margin-top: 25%;
+    margin-bottom: 3%;
+    font-size: 9em;
+}
+#first-section p {
+    margin: 0 25%;
+    font-size: 3em;
+    /* font-weight: 100; */
 }
